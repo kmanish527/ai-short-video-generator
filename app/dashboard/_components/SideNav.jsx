@@ -45,7 +45,7 @@ function SideNav({ isOpen, toggleSidebar }) {
             <Link href="/dashboard" className="flex items-center gap-2 hover:text-indigo-400 transition">
               <Home size={20} /> Dashboard
             </Link>
-            <Link href="/create" className="flex items-center gap-2 hover:text-indigo-400 transition">
+            <Link href="/dashboard/createnew" className="flex items-center gap-2 hover:text-indigo-400 transition">
               <PlusCircle size={20} /> Create Video
             </Link>
             <Link href="/my-videos" className="flex items-center gap-2 hover:text-indigo-400 transition">
